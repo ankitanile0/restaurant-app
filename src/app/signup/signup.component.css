@@ -1,0 +1,15 @@
+.card{
+    margin-top: 15px;
+    color: black;
+    width: 550px;
+    padding: 45px;
+    background-color: azure;
+    position: absolute;
+    top: 5%;
+    left: 25%;
+}
+
+input.ng-invalid.ng-touched
+{
+    border-color: red;
+}

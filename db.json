@@ -1,0 +1,73 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "Pies N' Thighs",
+      "email": "Piesnhhighs@gmail.com",
+      "mobile": 7387225939,
+      "address": "Ward No. 06, Amravati, Maharshtra, India"
+    },
+    {
+      "id": 2,
+      "name": "Backyard Bowls",
+      "email": "backyardbowls@yahoo.com",
+      "mobile": 7687789890,
+      "address": "Bhubaneshwar, Odisha, India"
+    },
+    {
+      "id": 3,
+      "name": "Pig'N Pancake",
+      "email": "pignpancake@gmail.com",
+      "mobile": 9345678322,
+      "address": "Kanta Nagar, Amravati, Maharashtra, India"
+    },
+    {
+      "id": 4,
+      "name": "Late Night Dine Right",
+      "email": "nightdine@gmail.com",
+      "mobile": 7687847798,
+      "address": "Navsari, Amravati, Maharashtra, India"
+    },
+    {
+      "id": 5,
+      "name": "Chops & Hops",
+      "email": "chopshops@gmail.com",
+      "mobile": 7787879965,
+      "address": "Treemurtee Nagar, Nagpur, Maharashtra, India"
+    },
+    {
+      "id": 6,
+      "name": "The Food Yard",
+      "email": "foodyard@yahoo.com",
+      "mobile": 9344565778,
+      "address": "Mississaaga, Ontario, Canada"
+    },
+    {
+      "id": 7,
+      "name": "Majestic Masala",
+      "email": "majesticmasala@yahoo.com",
+      "mobile": 73347689989,
+      "address": "Nandanwan Nagar, Nagpur, Maharashtra, India"
+    }
+  ],
+  "comments": [],
+  "signup": [
+    {
+      "name": "Ankita Nile",
+      "mobile": 7709096078,
+      "email": "ankitanile55@gmail.com",
+      "password": "Ankita7#",
+      "id": 1
+    },
+    {
+      "name": "",
+      "mobile": "",
+      "email": "",
+      "password": "",
+      "id": 2
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

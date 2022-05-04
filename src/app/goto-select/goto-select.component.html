@@ -1,0 +1,36 @@
+<!--Jumbotron Start Here-->
+
+<div class="p-2 mb-2 bg-light rounded-3">
+  <div class="container-fluid py-5">
+      <h1 class="display-5 fw-bold text-success">Please Select Your Favourite ♡</h1>     
+  </div>
+</div>
+
+<!--Jumbotron Cose Here-->
+
+<div class="container mt-5">
+<select class="form-select" aria-label="Default select example" [(ngModel)]="restId">
+    <option selected>Select Menu</option>
+    <option *ngFor="let data of allRestaurentData" value="{{data.id}}">
+        {{data.name}}                         
+     </option>                    
+  </select>
+<br>
+<br>
+<br>
+  <h4 style="text-align: center; font-style:oblique; color: green; size: 100px;">Count:  {{restId}}</h4>
+</div>
+
+
+<br>
+<br>
+<br>
+  <button class="btn btn-success" routerLink="/restaurent-dash">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-return-left" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M14.5 1.5a.5.5 0 0 1 .5.5v4.8a2.5 2.5 0 0 1-2.5 2.5H2.707l3.347 3.346a.5.5 0 0 1-.708.708l-4.2-4.2a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 8.3H12.5A1.5 1.5 0 0 0 14 6.8V2a.5.5 0 0 1 .5-.5z"/>
+    </svg>
+    Back
+  </button>
+
+
+

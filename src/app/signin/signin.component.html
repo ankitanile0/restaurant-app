@@ -1,0 +1,38 @@
+<div class="contaier">
+    <div class="row">
+        <div class="col-10 mt-5">
+            <div class="card">
+                <div class="text-center">
+                    <h1>LOGIN</h1>
+                    <hr>
+                </div>
+                <form [formGroup]="signinForm" (ngSubmit)="signIn()">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1"><b>Email</b></label><span class="text-danger">*</span>
+                        <input formControlName="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">                  
+                        <small>
+                          <strong *ngIf="email && email.invalid && email.touched" style="color: red;">Please Enter Email</strong>
+                        </small>                  
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1"><b>Enter Password</b></label><span class="text-danger">*</span>
+                        <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        <small>
+                            <strong *ngIf="password && password.invalid && password.touched" style="color: red;">Please Enter Password</strong>                  
+                        </small>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-success">Login</button>                
+                </form>
+              <a routerLink="/signup" class="text-mute"><b>Not a member? Signup</b></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
